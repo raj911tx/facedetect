@@ -7,9 +7,9 @@ import tensorflow as tf
 import numpy as np
 
 
-flags.DEFINE_string('dataset_path', './data/widerface/train',
+flags.DEFINE_string('dataset_path', 'content/facedetect/data/widerface/train',
                     'path to dataset')
-flags.DEFINE_string('output_path', './data/widerface_train_bin.tfrecord',
+flags.DEFINE_string('output_path', 'content/facedetect/data/widerface_train_bin.tfrecord',
                     'path to ouput tfrecord')
 flags.DEFINE_boolean('is_binary', True, 'whether save images as binary files'
                      ' or load them on the fly.')
